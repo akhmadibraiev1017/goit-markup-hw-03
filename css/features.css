@@ -5,6 +5,7 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .features-text {
@@ -17,4 +18,8 @@
 .features ul {
   display: flex;
   gap: 24px;
+}
+
+.features ul li {
+  width: calc((100% - 3 * 24px) / 4);
 }

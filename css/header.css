@@ -21,6 +21,9 @@
   line-height: 1.5;
   letter-spacing: 0.02em;
   text-decoration: none;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .teleport:hover,
@@ -37,6 +40,9 @@
   letter-spacing: 0.02em;
   text-decoration: none;
   font-style: normal;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .address:hover,
@@ -47,7 +53,6 @@
 header .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 nav ul {
@@ -58,4 +63,15 @@ nav ul {
 address ul {
   display: flex;
   gap: 40px;
+}
+
+nav {
+  gap: 76px;
+  display: flex;
+  align-items: center;
+  margin-right: auto;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
